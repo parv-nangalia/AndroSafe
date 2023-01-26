@@ -1,0 +1,48 @@
+Steps to excecute the project - 
+
+1) Extract the folders 'flaskpractice' and 'Capstone_mobile_app'
+
+2) Open terminal and go to the folder 'flaskpractice'
+
+3) Once inside the folder in terminal we need to enable virtual environment.
+
+4) To enable virtual environment run the following command 'venv\scripts\activate'
+
+5) Once virtual environment is enabled open 'requirements.txt' from the zip file
+
+6) Install all the required libraries in the virtual environment using pip
+
+7) Once libraries are installed, run the flask web application
+
+8) To run the web application go to 'flaskpractice' on your terminal and use the command 'set FLASK_APP=app.py'
+
+9) Then excecute the command 'flask run --host=0.0.0.0'
+
+10) Use 'ipconfig' on terminal to find local ipv4 address
+
+11) Ensure that your mobile device and desktop are connected to same wifi
+
+12) Go to your web browser and type in your ip followed by ':5000/' for eg '192.168.0.114:5000/'
+
+Steps to excecute the final mobile app
+
+1) Once the flask web application is up and running open android studio
+
+2) In android studio import project 'Capstone_mobile_app' 
+
+3) After importing go to the java folder in the top left corner, then go to 'capstone.proj.app' and open the 'MainActivity.java' file
+
+4) In the 'MainActivity.java' file go to line 56 and change the URL to your localhost ip address that was previously used in 'step 12'
+
+5) After making these changes run the 'MainActivity.java' file by pressing run button or use 'Shift +F10'
+
+6) Running it in this method will display the app on the android emulator
+
+7) To run the app on a mobile device first allow 'USB debugging' on the device by enabling 'Developer options'
+
+8) Now connect your phone to the desktop via USB cable and run the 'MainActivity.java' file 
+
+9) This will start Gradle Build Running and Install the app on your phone
+
+10) Please note that the mobile device and desktop/laptop should be connected to the same Wifi network
+    
