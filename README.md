@@ -1,5 +1,5 @@
 # AndroSafe
-AndroSafe is a android based mobile app made using flask which a user can use to safeguard their devices from the most prevalent malwares such as malicious apps or phishing links.
+AndroSafe is an android based mobile app made using flask which a user can use to safeguard their devices from the most prevalent malwares such as malicious apps or phishing links.
 
 
 Used machine learning approach for classification between malignant and benign samples for both applications and web-links.
